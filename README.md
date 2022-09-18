@@ -30,12 +30,8 @@ I downloaded the dataset about the nearest earth objects from kaggle, uploaded i
 
 ## HOW TO USE: FastAPI
 
-<code>
-  <html>
-    <head>
+```
       python fast_api.py
-    </head>
-  </html>
-</code>
+```
 
 Then go to the browser and open the webpage. You can play on the url, or can use swagger.
