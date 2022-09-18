@@ -15,18 +15,18 @@ I downloaded the dataset about the nearest earth objects from kaggle, uploaded i
 ## HOW TO USE: CLI
 
 ```
-      databricks clusters list --output JSON | jq
-      databricks fs ls dbfs:/
-      databricks jobs list --output JSON | jq
+databricks clusters list --output JSON | jq
+databricks fs ls dbfs:/
+databricks jobs list --output JSON | jq
 
-      chmod +x query_sql_db.py
-      ./query_sql_db.py cli-query --query "SELECT * FROM neo_v2_csv LIMIT 5"
+chmod +x query_sql_db.py
+./query_sql_db.py cli-query --query "SELECT * FROM neo_v2_csv LIMIT 5"
 ```
 
 ## HOW TO USE: FastAPI
 
 ```
-      python fast_api.py
+python fast_api.py
 ```
 
 Then go to the browser and open the webpage. You can play on the url, or can use swagger.
