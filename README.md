@@ -12,8 +12,9 @@ I created this new repo on github for my project 1, set virtual environment on c
 
 I downloaded the dataset about the nearest earth objects from kaggle, uploaded it onto Databricks, created table UI of it. I connected the databricks to Codespaces, built a CLI with Click and also implemented FastAPI.
 
-## HOW TO USE: CLI
+## HOW TO USE
 
+CLI:
 ```
 databricks clusters list --output JSON | jq
 databricks fs ls dbfs:/
@@ -23,10 +24,8 @@ chmod +x query_sql_db.py
 ./query_sql_db.py cli-query --query "SELECT * FROM neo_v2_csv LIMIT 5"
 ```
 
-## HOW TO USE: FastAPI
-
+FastAPI:
 ```
 python fast_api.py
 ```
-
 Then go to the browser and open the webpage. You can play on the url, or can use swagger.
