@@ -1,4 +1,4 @@
-# Project 1
+# Project 1 - Fangting Ma
 
 [![Python application test with Github Actions](https://github.com/nogibjj/scafford/actions/workflows/main.yml/badge.svg)](https://github.com/nogibjj/scafford/actions/workflows/main.yml)
 
