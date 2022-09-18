@@ -13,7 +13,7 @@ def cli():
 @cli.command()
 @click.option(
     "--query",
-    default="SELECT name, est_diameter_min, hazardous FROM neo_v2_csv ORDER BY est_diameter_min DESC LIMIT 5",
+    default="SELECT name, est_diameter_min, hazardous FROM neo_v2_csv ORDER BY est_diameter_min LIMIT 5",
     help="SQL query to execute",
 )
 def cli_query(query):
