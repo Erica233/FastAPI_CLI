@@ -14,19 +14,14 @@ I downloaded the dataset about the nearest earth objects from kaggle, uploaded i
 
 ## HOW TO USE: CLI
 
-<code>
-  <html>
-    <head>
-        databricks clusters list --output JSON | jq
-        databricks fs ls dbfs:/
-        databricks jobs list --output JSON | jq
-    </head>
-    <head>
+```
+      databricks clusters list --output JSON | jq
+      databricks fs ls dbfs:/
+      databricks jobs list --output JSON | jq
+
       chmod +x query_sql_db.py
       ./query_sql_db.py cli-query --query "SELECT * FROM neo_v2_csv LIMIT 5"
-    </head>
-  </html>
-</code>
+```
 
 ## HOW TO USE: FastAPI
 
